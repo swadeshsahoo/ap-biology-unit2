@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP Biology Unit 2 Practice Questions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .question-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        details {
+            background-color: white;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+        summary:hover {
+            color: #4CAF50;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .answer-section {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        input[type="text"], textarea {
+            width: 90%;
+            padding: 5px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        textarea {
+            height: 60px;
+            resize: vertical;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            margin-top: 5px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AP Biology Unit 2: Cell Structure and Function Practice Questions</h1>
+    </header>
+    <div class="question-container">
+        <!-- Multiple-Choice Questions -->
+        <details>
+            <summary>1. Which of the following is a key principle of the cell theory?</summary>
+            <div class="options">
+                <p>a) All cells have a nucleus</p>
+                <p>b) All living things are made of one or more cells</p>
+                <p>c) Cells can arise spontaneously from nonliving matter</p>
+                <p>d) Cells are only found in multicellular organisms</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer1" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(1)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>2. What distinguishes prokaryotic cells from eukaryotic cells?</summary>
+            <div class="options">
+                <p>a) Presence of a cell membrane</p>
+                <p>b) Absence of a nucleus</p>
+                <p>c) Presence of ribosomes</p>
+                <p>d) Ability to perform photosynthesis</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer2" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(2)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>3. Which organelle is the primary site of ATP production in eukaryotic cells?</summary>
+            <div class="options">
+                <p>a) Nucleus</p>
+                <p>b) Mitochondrion</p>
+                <p>c) Golgi apparatus</p>
+                <p>d) Endoplasmic reticulum</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer3" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(3)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>4. The fluid mosaic model describes the cell membrane as:</summary>
+            <div class="options">
+                <p>a) A rigid structure of phospholipids</p>
+                <p>b) A dynamic layer with embedded proteins</p>
+                <p>c) A single layer of lipids</p>
+                <p>d) A barrier without proteins</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer4" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(4)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>5. Which process requires no energy and moves substances from high to low concentration?</summary>
+            <div class="options">
+                <p>a) Active transport</p>
+                <p>b) Facilitated diffusion</p>
+                <p>c) Endocytosis</p>
+                <p>d) Sodium-potassium pump</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer5" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(5)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>6. What happens to a cell placed in a hypertonic solution?</summary>
+            <div class="options">
+                <p>a) It swells and may burst</p>
+                <p>b) It shrinks due to water loss</p>
+                <p>c) It remains unchanged</p>
+                <p>d) It gains solutes</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer6" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(6)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>7. Where are ribosomes primarily responsible for protein synthesis located?</summary>
+            <div class="options">
+                <p>a) Nucleus</p>
+                <p>b) Cytoplasm and rough ER</p>
+                <p>c) Mitochondria</p>
+                <p>d) Lysosomes</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer7" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(7)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>8. Which organelle modifies and packages proteins for secretion?</summary>
+            <div class="options">
+                <p>a) Lysosome</p>
+                <p>b) Golgi apparatus</p>
+                <p>c) Smooth ER</p>
+                <p>d) Peroxisome</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer8" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(8)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>9. What is the primary function of chloroplasts in plant cells?</summary>
+            <div class="options">
+                <p>a) Protein synthesis</p>
+                <p>b) Photosynthesis</p>
+                <p>c) Lipid storage</p>
+                <p>d) Cellular respiration</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer9" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(9)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>10. The sodium-potassium pump moves Na⁺ and K⁺ ions against their concentration gradients using:</summary>
+            <div class="options">
+                <p>a) Diffusion</p>
+                <p>b) ATP</p>
+                <p>c) Osmosis</p>
+                <p>d) Channel proteins</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer10" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(10)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>11. Why are cells typically small in size?</summary>
+            <div class="options">
+                <p>a) To increase their volume</p>
+                <p>b) To maximize surface area-to-volume ratio</p>
+                <p>c) To reduce metabolic activity</p>
+                <p>d) To limit nutrient uptake</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer11" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(11)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>12. What is the role of integral proteins in the cell membrane?</summary>
+            <div class="options">
+                <p>a) Provide structural support only</p>
+                <p>b) Facilitate transport and signaling</p>
+                <p>c) Store energy</p>
+                <p>d) Synthesize lipids</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer12" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(12)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>13. What is the primary function of lysosomes in animal cells?</summary>
+            <div class="options">
+                <p>a) Energy production</p>
+                <p>b) Digestion of macromolecules</p>
+                <p>c) Protein modification</p>
+                <p>d) DNA replication</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer13" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(13)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>14. Which factor increases the rate of diffusion across a membrane?</summary>
+            <div class="options">
+                <p>a) Larger molecule size</p>
+                <p>b) Steeper concentration gradient</p>
+                <p>c) Thicker membrane</p>
+                <p>d) Lower temperature</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer14" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(14)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>15. Phagocytosis is a type of endocytosis that involves:</summary>
+            <div class="options">
+                <p>a) The uptake of small dissolved molecules</p>
+                <p>b) The engulfing of large particles</p>
+                <p>c) The release of substances</p>
+                <p>d) The movement of water</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer15" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(15)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>16. Which component of the cytoskeleton provides structural support and aids in cell movement?</summary>
+            <div class="options">
+                <p>a) Microtubules</p>
+                <p>b) Ribosomes</p>
+                <p>c) Nucleolus</p>
+                <p>d) Centrioles</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer16" placeholder="Type your answer (e.g., a)">
+                <button onclick="saveAnswer(16)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>17. What structure unique to plant cells provides rigidity and support?</summary>
+            <div class="options">
+                <p>a) Cell membrane</p>
+                <p>b) Cell wall</p>
+                <p>c) Vacuole</p>
+                <p>d) Chloroplast</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer17" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(17)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>18. How does compartmentalization benefit eukaryotic cells?</summary>
+            <div class="options">
+                <p>a) It reduces metabolic efficiency</p>
+                <p>b) It separates incompatible processes</p>
+                <p>c) It eliminates the need for a nucleus</p>
+                <p>d) It decreases surface area</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer18" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(18)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>19. A cell in a hypotonic solution will:</summary>
+            <div class="options">
+                <p>a) Lose water and shrink</p>
+                <p>b) Gain water and swell</p>
+                <p>c) Remain isotonic</p>
+                <p>d) Expel solutes</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer19" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(19)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>20. Why are small, nonpolar molecules able to diffuse easily across the cell membrane?</summary>
+            <div class="options">
+                <p>a) They are hydrophilic</p>
+                <p>b) They interact with membrane proteins</p>
+                <p>c) They dissolve in the hydrophobic core</p>
+                <p>d) They require active transport</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer20" placeholder="Type your answer (e.g., c)">
+                <button onclick="saveAnswer(20)">Save</button>
+            </div>
+        </details>
+
+        <!-- Short-Answer Questions -->
+        <details>
+            <summary>21. Explain the significance of the surface area-to-volume ratio in determining cell size.</summary>
+            <div class="answer-section">
+                <textarea id="answer21" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(21)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>22. Describe the structure and function of the cell membrane according to the fluid mosaic model.</summary>
+            <div class="answer-section">
+                <textarea id="answer22" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(22)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>23. How does the endoplasmic reticulum contribute to protein synthesis and transport?</summary>
+            <div class="answer-section">
+                <textarea id="answer23" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(23)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>24. What is the difference between passive transport and active transport across a cell membrane?</summary>
+            <div class="answer-section">
+                <textarea id="answer24" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(24)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>25. Explain how osmosis affects plant cells differently than animal cells.</summary>
+            <div class="answer-section">
+                <textarea id="answer25" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(25)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>26. Describe the role of mitochondria in eukaryotic cells and their evolutionary origin.</summary>
+            <div class="answer-section">
+                <textarea id="answer26" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(26)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>27. How do lysosomes and peroxisomes differ in their functions within a cell?</summary>
+            <div class="answer-section">
+                <textarea id="answer27" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(27)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>28. Explain the importance of the cytoskeleton in maintaining cell shape and facilitating movement.</summary>
+            <div class="answer-section">
+                <textarea id="answer28" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(28)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>29. How does the presence of a cell wall affect the structure and function of plant cells?</summary>
+            <div class="answer-section">
+                <textarea id="answer29" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(29)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>30. Describe how compartmentalization in eukaryotic cells enhances metabolic efficiency.</summary>
+            <div class="answer-section">
+                <textarea id="answer30" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(30)">Save</button>
+            </div>
+        </details>
+    </div>
+
+    <script>
+        // Load saved answers when the page loads
+        window.onload = function() {
+            for (let i = 1; i <= 30; i++) {
+                let savedAnswer = localStorage.getItem(`answer${i}`);
+                if (savedAnswer) {
+                    document.getElementById(`answer${i}`).value = savedAnswer;
+                }
+            }
+        };
+
+        // Save answer to localStorage
+        function saveAnswer(questionNumber) {
+            let answer = document.getElementById(`answer${questionNumber}`).value;
+            localStorage.setItem(`answer${questionNumber}`, answer);
+            alert(`Answer for question ${questionNumber} saved!`);
+        }
+    </script>
+</body>
+</html>
