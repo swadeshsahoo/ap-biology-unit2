@@ -3,431 +3,528 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AP Biology Unit 2 Practice Questions</title>
+    <title>AP Biology Unit 2: Test Questions (Cell Structure & Function)</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        header {
-            text-align: center;
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px;
-            margin-bottom: 20px;
-        }
-        h1 {
-            margin: 0;
-        }
-        .question-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        details {
-            background-color: white;
-            margin-bottom: 10px;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        summary {
-            cursor: pointer;
-            font-weight: bold;
-        }
-        summary:hover {
-            color: #4CAF50;
-        }
-        .options {
-            margin-left: 20px;
-        }
-        .answer-section {
-            margin-top: 10px;
-            margin-left: 20px;
-        }
-        input[type="text"], textarea {
-            width: 90%;
-            padding: 5px;
-            margin-top: 5px;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-        }
-        textarea {
-            height: 60px;
-            resize: vertical;
-        }
-        button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 5px 10px;
-            margin-top: 5px;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #45a049;
-        }
+        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+        h1 { text-align: center; color: #2c3e50; }
+        .question { margin-bottom: 20px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; background-color: #f9f9f9; }
+        .question p { margin: 0 0 10px 0; }
+        .options { margin-left: 20px; }
     </style>
 </head>
 <body>
-    <header>
-        <h1>AP Biology Unit 2: Cell Structure and Function Practice Questions</h1>
-    </header>
-    <div class="question-container">
-        <!-- Multiple-Choice Questions -->
-        <details>
-            <summary>1. Which of the following is a key principle of the cell theory?</summary>
-            <div class="options">
-                <p>a) All cells have a nucleus</p>
-                <p>b) All living things are made of one or more cells</p>
-                <p>c) Cells can arise spontaneously from nonliving matter</p>
-                <p>d) Cells are only found in multicellular organisms</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer1" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(1)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>2. What distinguishes prokaryotic cells from eukaryotic cells?</summary>
-            <div class="options">
-                <p>a) Presence of a cell membrane</p>
-                <p>b) Absence of a nucleus</p>
-                <p>c) Presence of ribosomes</p>
-                <p>d) Ability to perform photosynthesis</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer2" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(2)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>3. Which organelle is the primary site of ATP production in eukaryotic cells?</summary>
-            <div class="options">
-                <p>a) Nucleus</p>
-                <p>b) Mitochondrion</p>
-                <p>c) Golgi apparatus</p>
-                <p>d) Endoplasmic reticulum</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer3" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(3)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>4. The fluid mosaic model describes the cell membrane as:</summary>
-            <div class="options">
-                <p>a) A rigid structure of phospholipids</p>
-                <p>b) A dynamic layer with embedded proteins</p>
-                <p>c) A single layer of lipids</p>
-                <p>d) A barrier without proteins</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer4" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(4)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>5. Which process requires no energy and moves substances from high to low concentration?</summary>
-            <div class="options">
-                <p>a) Active transport</p>
-                <p>b) Facilitated diffusion</p>
-                <p>c) Endocytosis</p>
-                <p>d) Sodium-potassium pump</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer5" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(5)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>6. What happens to a cell placed in a hypertonic solution?</summary>
-            <div class="options">
-                <p>a) It swells and may burst</p>
-                <p>b) It shrinks due to water loss</p>
-                <p>c) It remains unchanged</p>
-                <p>d) It gains solutes</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer6" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(6)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>7. Where are ribosomes primarily responsible for protein synthesis located?</summary>
-            <div class="options">
-                <p>a) Nucleus</p>
-                <p>b) Cytoplasm and rough ER</p>
-                <p>c) Mitochondria</p>
-                <p>d) Lysosomes</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer7" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(7)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>8. Which organelle modifies and packages proteins for secretion?</summary>
-            <div class="options">
-                <p>a) Lysosome</p>
-                <p>b) Golgi apparatus</p>
-                <p>c) Smooth ER</p>
-                <p>d) Peroxisome</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer8" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(8)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>9. What is the primary function of chloroplasts in plant cells?</summary>
-            <div class="options">
-                <p>a) Protein synthesis</p>
-                <p>b) Photosynthesis</p>
-                <p>c) Lipid storage</p>
-                <p>d) Cellular respiration</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer9" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(9)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>10. The sodium-potassium pump moves Na⁺ and K⁺ ions against their concentration gradients using:</summary>
-            <div class="options">
-                <p>a) Diffusion</p>
-                <p>b) ATP</p>
-                <p>c) Osmosis</p>
-                <p>d) Channel proteins</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer10" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(10)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>11. Why are cells typically small in size?</summary>
-            <div class="options">
-                <p>a) To increase their volume</p>
-                <p>b) To maximize surface area-to-volume ratio</p>
-                <p>c) To reduce metabolic activity</p>
-                <p>d) To limit nutrient uptake</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer11" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(11)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>12. What is the role of integral proteins in the cell membrane?</summary>
-            <div class="options">
-                <p>a) Provide structural support only</p>
-                <p>b) Facilitate transport and signaling</p>
-                <p>c) Store energy</p>
-                <p>d) Synthesize lipids</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer12" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(12)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>13. What is the primary function of lysosomes in animal cells?</summary>
-            <div class="options">
-                <p>a) Energy production</p>
-                <p>b) Digestion of macromolecules</p>
-                <p>c) Protein modification</p>
-                <p>d) DNA replication</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer13" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(13)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>14. Which factor increases the rate of diffusion across a membrane?</summary>
-            <div class="options">
-                <p>a) Larger molecule size</p>
-                <p>b) Steeper concentration gradient</p>
-                <p>c) Thicker membrane</p>
-                <p>d) Lower temperature</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer14" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(14)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>15. Phagocytosis is a type of endocytosis that involves:</summary>
-            <div class="options">
-                <p>a) The uptake of small dissolved molecules</p>
-                <p>b) The engulfing of large particles</p>
-                <p>c) The release of substances</p>
-                <p>d) The movement of water</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer15" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(15)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>16. Which component of the cytoskeleton provides structural support and aids in cell movement?</summary>
-            <div class="options">
-                <p>a) Microtubules</p>
-                <p>b) Ribosomes</p>
-                <p>c) Nucleolus</p>
-                <p>d) Centrioles</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer16" placeholder="Type your answer (e.g., a)">
-                <button onclick="saveAnswer(16)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>17. What structure unique to plant cells provides rigidity and support?</summary>
-            <div class="options">
-                <p>a) Cell membrane</p>
-                <p>b) Cell wall</p>
-                <p>c) Vacuole</p>
-                <p>d) Chloroplast</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer17" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(17)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>18. How does compartmentalization benefit eukaryotic cells?</summary>
-            <div class="options">
-                <p>a) It reduces metabolic efficiency</p>
-                <p>b) It separates incompatible processes</p>
-                <p>c) It eliminates the need for a nucleus</p>
-                <p>d) It decreases surface area</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer18" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(18)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>19. A cell in a hypotonic solution will:</summary>
-            <div class="options">
-                <p>a) Lose water and shrink</p>
-                <p>b) Gain water and swell</p>
-                <p>c) Remain isotonic</p>
-                <p>d) Expel solutes</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer19" placeholder="Type your answer (e.g., b)">
-                <button onclick="saveAnswer(19)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>20. Why are small, nonpolar molecules able to diffuse easily across the cell membrane?</summary>
-            <div class="options">
-                <p>a) They are hydrophilic</p>
-                <p>b) They interact with membrane proteins</p>
-                <p>c) They dissolve in the hydrophobic core</p>
-                <p>d) They require active transport</p>
-            </div>
-            <div class="answer-section">
-                <input type="text" id="answer20" placeholder="Type your answer (e.g., c)">
-                <button onclick="saveAnswer(20)">Save</button>
-            </div>
-        </details>
+    <h1>AP Biology Unit 2: Cell Structure and Function<br>50 Hard Test Questions<br>(Subcellular Components, Membranes, Transport, Compartmentalization)</h1>
 
-        <!-- Short-Answer Questions -->
-        <details>
-            <summary>21. Explain the significance of the surface area-to-volume ratio in determining cell size.</summary>
-            <div class="answer-section">
-                <textarea id="answer21" placeholder="Type your answer here"></textarea>
-                <button onclick="saveAnswer(21)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>22. Describe the structure and function of the cell membrane according to the fluid mosaic model.</summary>
-            <div class="answer-section">
-                <textarea id="answer22" placeholder="Type your answer here"></textarea>
-                <button onclick="saveAnswer(22)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>23. How does the endoplasmic reticulum contribute to protein synthesis and transport?</summary>
-            <div class="answer-section">
-                <textarea id="answer23" placeholder="Type your answer here"></textarea>
-                <button onclick="saveAnswer(23)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>24. What is the difference between passive transport and active transport across a cell membrane?</summary>
-            <div class="answer-section">
-                <textarea id="answer24" placeholder="Type your answer here"></textarea>
-                <button onclick="saveAnswer(24)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>25. Explain how osmosis affects plant cells differently than animal cells.</summary>
-            <div class="answer-section">
-                <textarea id="answer25" placeholder="Type your answer here"></textarea>
-                <button onclick="saveAnswer(25)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>26. Describe the role of mitochondria in eukaryotic cells and their evolutionary origin.</summary>
-            <div class="answer-section">
-                <textarea id="answer26" placeholder="Type your answer here"></textarea>
-                <button onclick="saveAnswer(26)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>27. How do lysosomes and peroxisomes differ in their functions within a cell?</summary>
-            <div class="answer-section">
-                <textarea id="answer27" placeholder="Type your answer here"></textarea>
-                <button onclick="saveAnswer(27)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>28. Explain the importance of the cytoskeleton in maintaining cell shape and facilitating movement.</summary>
-            <div class="answer-section">
-                <textarea id="answer28" placeholder="Type your answer here"></textarea>
-                <button onclick="saveAnswer(28)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>29. How does the presence of a cell wall affect the structure and function of plant cells?</summary>
-            <div class="answer-section">
-                <textarea id="answer29" placeholder="Type your answer here"></textarea>
-                <button onclick="saveAnswer(29)">Save</button>
-            </div>
-        </details>
-        <details>
-            <summary>30. Describe how compartmentalization in eukaryotic cells enhances metabolic efficiency.</summary>
-            <div class="answer-section">
-                <textarea id="answer30" placeholder="Type your answer here"></textarea>
-                <button onclick="saveAnswer(30)">Save</button>
-            </div>
-        </details>
+    <!-- Cell Structure - Subcellular Components -->
+    <div class="question">
+        <p>1. The rough endoplasmic reticulum is distinguished by the presence of:</p>
+        <div class="options">
+            <p>A) Lysosomes</p>
+            <p>B) Ribosomes</p>
+            <p>C) Mitochondria</p>
+            <p>D) Peroxisomes</p>
+        </div>
     </div>
 
-    <script>
-        // Load saved answers when the page loads
-        window.onload = function() {
-            for (let i = 1; i <= 30; i++) {
-                let savedAnswer = localStorage.getItem(`answer${i}`);
-                if (savedAnswer) {
-                    document.getElementById(`answer${i}`).value = savedAnswer;
-                }
-            }
-        };
+    <div class="question">
+        <p>2. Which organelle contains enzymes for beta-oxidation of fatty acids?</p>
+        <div class="options">
+            <p>A) Lysosomes</p>
+            <p>B) Peroxisomes</p>
+            <p>C) Golgi apparatus</p>
+            <p>D) Smooth ER</p>
+        </div>
+    </div>
 
-        // Save answer to localStorage
-        function saveAnswer(questionNumber) {
-            let answer = document.getElementById(`answer${questionNumber}`).value;
-            localStorage.setItem(`answer${questionNumber}`, answer);
-            alert(`Answer for question ${questionNumber} saved!`);
-        }
-    </script>
+    <div class="question">
+        <p>3. The nucleolus is the primary site of:</p>
+        <div class="options">
+            <p>A) DNA replication</p>
+            <p>B) Ribosome assembly</p>
+            <p>C) Protein folding</p>
+            <p>D) Lipid synthesis</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>4. Cristae in mitochondria increase the surface area for:</p>
+        <div class="options">
+            <p>A) Glycolysis</p>
+            <p>B) Oxidative phosphorylation</p>
+            <p>C) Photosynthesis</p>
+            <p>D) Protein export</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>5. Centrioles are most directly involved in:</p>
+        <div class="options">
+            <p>A) Cell division</p>
+            <p>B) Energy production</p>
+            <p>C) Detoxification</p>
+            <p>D) Protein synthesis</p>
+        </div>
+    </div>
+
+    <!-- Cell Structure and Function -->
+    <div class="question">
+        <p>6. The primary function of the Golgi apparatus is:</p>
+        <div class="options">
+            <p>A) ATP synthesis</p>
+            <p>B) Protein modification and packaging</p>
+            <p>C) DNA storage</p>
+            <p>D) Lipid breakdown</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>7. Chloroplasts are unique to plant cells and function in:</p>
+        <div class="options">
+            <p>A) Cellular respiration</p>
+            <p>B) Photosynthesis</p>
+            <p>C) Protein export</p>
+            <p>D) Waste storage</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>8. The cytoskeleton provides:</p>
+        <div class="options">
+            <p>A) Genetic information</p>
+            <p>B) Structural support and motility</p>
+            <p>C) Energy storage</p>
+            <p>D) Selective permeability</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>9. Lysosomes maintain an acidic pH to:</p>
+        <div class="options">
+            <p>A) Synthesize proteins</p>
+            <p>B) Break down cellular waste</p>
+            <p>C) Store energy</p>
+            <p>D) Transport ions</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>10. The smooth ER is primarily involved in:</p>
+        <div class="options">
+            <p>A) Protein synthesis</p>
+            <p>B) Lipid synthesis and detoxification</p>
+            <p>C) Ribosome production</p>
+            <p>D) DNA replication</p>
+        </div>
+    </div>
+
+    <!-- Cell Size -->
+    <div class="question">
+        <p>11. Cell size is limited primarily by:</p>
+        <div class="options">
+            <p>A) Surface area-to-volume ratio</p>
+            <p>B) Availability of organelles</p>
+            <p>C) Cytoskeletal strength</p>
+            <p>D) Membrane thickness</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>12. As a cell increases in size, its volume increases:</p>
+        <div class="options">
+            <p>A) Linearly</p>
+            <p>B) Quadratically</p>
+            <p>C) Cubically</p>
+            <p>D) Exponentially</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>13. Smaller cells are more efficient at nutrient uptake due to:</p>
+        <div class="options">
+            <p>A) Lower metabolic rates</p>
+            <p>B) Higher surface area-to-volume ratio</p>
+            <p>C) Thicker membranes</p>
+            <p>D) Fewer organelles</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>14. A cell with a diameter of 10 μm has a surface area-to-volume ratio ___ compared to a cell with a diameter of 20 μm:</p>
+        <div class="options">
+            <p>A) Lower</p>
+            <p>B) Higher</p>
+            <p>C) Equal</p>
+            <p>D) Unpredictable</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>15. Prokaryotic cells are typically smaller than eukaryotic cells because they lack:</p>
+        <div class="options">
+            <p>A) A nucleus</p>
+            <p>B) Membrane-bound organelles</p>
+            <p>C) DNA</p>
+            <p>D) Ribosomes</p>
+        </div>
+    </div>
+
+    <!-- Plasma Membranes -->
+    <div class="question">
+        <p>16. The fluid mosaic model describes the plasma membrane as:</p>
+        <div class="options">
+            <p>A) A rigid lipid bilayer</p>
+            <p>B) A dynamic lipid bilayer with embedded proteins</p>
+            <p>C) A solid protein layer</p>
+            <p>D) A carbohydrate matrix</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>17. Cholesterol in the plasma membrane:</p>
+        <div class="options">
+            <p>A) Increases fluidity at all temperatures</p>
+            <p>B) Stabilizes fluidity across temperature changes</p>
+            <p>C) Prevents all molecular movement</p>
+            <p>D) Enhances permeability to ions</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>18. Integral proteins in the plasma membrane are:</p>
+        <div class="options">
+            <p>A) Loosely attached to the surface</p>
+            <p>B) Embedded within the lipid bilayer</p>
+            <p>C) Exclusively hydrophilic</p>
+            <p>D) Only found in prokaryotes</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>19. The amphipathic nature of phospholipids results in:</p>
+        <div class="options">
+            <p>A) A single-layer membrane</p>
+            <p>B) A bilayer with hydrophilic heads outward</p>
+            <p>C) A fully hydrophobic membrane</p>
+            <p>D) A rigid structure</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>20. Peripheral proteins are typically involved in:</p>
+        <div class="options">
+            <p>A) Transport across the membrane</p>
+            <p>B) Cell signaling and attachment</p>
+            <p>C) Lipid synthesis</p>
+            <p>D) Energy production</p>
+        </div>
+    </div>
+
+    <!-- Membrane Permeability -->
+    <div class="question">
+        <p>21. The plasma membrane is most permeable to:</p>
+        <div class="options">
+            <p>A) Large polar molecules</p>
+            <p>B) Small nonpolar molecules</p>
+            <p>C) Ions</p>
+            <p>D) Proteins</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>22. Charged particles like Na⁺ require ___ to cross the membrane:</p>
+        <div class="options">
+            <p>A) Simple diffusion</p>
+            <p>B) Protein channels or carriers</p>
+            <p>C) Osmosis</p>
+            <p>D) Hydrophobic tails</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>23. Oxygen crosses the plasma membrane via:</p>
+        <div class="options">
+            <p>A) Active transport</p>
+            <p>B) Simple diffusion</p>
+            <p>C) Facilitated diffusion</p>
+            <p>D) Endocytosis</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>24. The permeability of the membrane to water is enhanced by:</p>
+        <div class="options">
+            <p>A) Cholesterol</p>
+            <p>B) Aquaporins</p>
+            <p>C) Peripheral proteins</p>
+            <p>D) Saturated fatty acids</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>25. Large hydrophilic molecules are least likely to cross the membrane due to:</p>
+        <div class="options">
+            <p>A) Hydrophobic core of the bilayer</p>
+            <p>B) High cholesterol content</p>
+            <p>C) Presence of integral proteins</p>
+            <p>D) Fluidity of the membrane</p>
+        </div>
+    </div>
+
+    <!-- Membrane Transport -->
+    <div class="question">
+        <p>26. Active transport differs from passive transport in that it:</p>
+        <div class="options">
+            <p>A) Moves substances down a gradient</p>
+            <p>B) Requires energy input</p>
+            <p>C) Uses only channel proteins</p>
+            <p>D) Is limited to water</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>27. The sodium-potassium pump moves Na⁺ and K⁺:</p>
+        <div class="options">
+            <p>A) Against their concentration gradients</p>
+            <p>B) Down their concentration gradients</p>
+            <p>C) In equal amounts</p>
+            <p>D) Without ATP</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>28. Exocytosis is used to:</p>
+        <div class="options">
+            <p>A) Import large molecules</p>
+            <p>B) Export large molecules</p>
+            <p>C) Transport ions</p>
+            <p>D) Maintain osmosis</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>29. Phagocytosis is a type of:</p>
+        <div class="options">
+            <p>A) Passive transport</p>
+            <p>B) Facilitated diffusion</p>
+            <p>C) Endocytosis</p>
+            <p>D) Osmosis</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>30. Pinocytosis involves the uptake of:</p>
+        <div class="options">
+            <p>A) Solid particles</p>
+            <p>B) Extracellular fluid</p>
+            <p>C) Specific molecules</p>
+            <p>D) Ions only</p>
+        </div>
+    </div>
+
+    <!-- Facilitated Diffusion -->
+    <div class="question">
+        <p>31. Facilitated diffusion requires:</p>
+        <div class="options">
+            <p>A) ATP</p>
+            <p>B) Transport proteins</p>
+            <p>C) A lipid bilayer only</p>
+            <p>D) Active pumping</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>32. Glucose enters cells primarily via:</p>
+        <div class="options">
+            <p>A) Simple diffusion</p>
+            <p>B) Facilitated diffusion</p>
+            <p>C) Active transport</p>
+            <p>D) Osmosis</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>33. Channel proteins in facilitated diffusion are:</p>
+        <div class="options">
+            <p>A) Nonspecific</p>
+            <p>B) Specific to certain molecules</p>
+            <p>C) Energy-dependent</p>
+            <p>D) Always open</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>34. Facilitated diffusion stops when:</p>
+        <div class="options">
+            <p>A) ATP is depleted</p>
+            <p>B) Equilibrium is reached</p>
+            <p>C) The membrane is saturated</p>
+            <p>D) Proteins denature</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>35. Carrier proteins in facilitated diffusion undergo:</p>
+        <div class="options">
+            <p>A) Conformational changes</p>
+            <p>B) Permanent binding</p>
+            <p>C) Energy consumption</p>
+            <p>D) Lipid integration</p>
+        </div>
+    </div>
+
+    <!-- Tonicity and Osmoregulation -->
+    <div class="question">
+        <p>36. A hypertonic solution causes a cell to:</p>
+        <div class="options">
+            <p>A) Swell</p>
+            <p>B) Shrink</p>
+            <p>C) Remain unchanged</p>
+            <p>D) Burst</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>37. Osmoregulation in freshwater fish involves:</p>
+        <div class="options">
+            <p>A) Excreting large amounts of dilute urine</p>
+            <p>B) Conserving water</p>
+            <p>C) Excreting concentrated urine</p>
+            <p>D) Absorbing salt actively</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>38. Plant cells in a hypotonic solution become:</p>
+        <div class="options">
+            <p>A) Flaccid</p>
+            <p>B) Turgid</p>
+            <p>C) Plasmolyzed</p>
+            <p>D) Lysed</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>39. Isotonic conditions mean:</p>
+        <div class="options">
+            <p>A) No net water movement</p>
+            <p>B) Water moves out of the cell</p>
+            <p>C) Water moves into the cell</p>
+            <p>D) The cell bursts</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>40. Contractile vacuoles in protists help with:</p>
+        <div class="options">
+            <p>A) Nutrient uptake</p>
+            <p>B) Excess water expulsion</p>
+            <p>C) Protein synthesis</p>
+            <p>D) Energy storage</p>
+        </div>
+    </div>
+
+    <!-- Mechanisms of Transport -->
+    <div class="question">
+        <p>41. The proton pump in plant cells is an example of:</p>
+        <div class="options">
+            <p>A) Passive transport</p>
+            <p>B) Primary active transport</p>
+            <p>C) Secondary active transport</p>
+            <p>D) Facilitated diffusion</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>42. Cotransport involves:</p>
+        <div class="options">
+            <p>A) Movement of one substance only</p>
+            <p>B) Coupled movement of two substances</p>
+            <p>C) Simple diffusion</p>
+            <p>D) Osmotic flow</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>43. Secondary active transport relies on:</p>
+        <div class="options">
+            <p>A) Direct ATP hydrolysis</p>
+            <p>B) A concentration gradient established by primary transport</p>
+            <p>C) Channel proteins only</p>
+            <p>D) Osmotic pressure</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>44. Receptor-mediated endocytosis is highly specific due to:</p>
+        <div class="options">
+            <p>A) Random vesicle formation</p>
+            <p>B) Ligand-receptor binding</p>
+            <p>C) Nonselective uptake</p>
+            <p>D) Passive diffusion</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>45. The sodium-potassium pump is an example of:</p>
+        <div class="options">
+            <p>A) Antiport transport</p>
+            <p>B) Symport transport</p>
+            <p>C) Uniport transport</p>
+            <p>D) Facilitated diffusion</p>
+        </div>
+    </div>
+
+    <!-- Cell Compartmentalization -->
+    <div class="question">
+        <p>46. Compartmentalization in eukaryotic cells allows for:</p>
+        <div class="options">
+            <p>A) Increased cell size</p>
+            <p>B) Specialized functions</p>
+            <p>C) Reduced complexity</p>
+            <p>D) Uniform processes</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>47. The nuclear envelope separates:</p>
+        <div class="options">
+            <p>A) Cytoplasm from organelles</p>
+            <p>B) DNA from cytoplasm</p>
+            <p>C) Ribosomes from ER</p>
+            <p>D) Mitochondria from cytosol</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>48. The thylakoid membrane in chloroplasts compartmentalizes:</p>
+        <div class="options">
+            <p>A) Protein synthesis</p>
+            <p>B) Light-dependent reactions</p>
+            <p>C) Glycolysis</p>
+            <p>D) Lipid storage</p>
+        </div>
+    </div>
+
+    <!-- Origins of Cell Compartmentalization -->
+    <div class="question">
+        <p>49. The endosymbiotic theory suggests mitochondria originated from:</p>
+        <div class="options">
+            <p>A) Folded plasma membranes</p>
+            <p>B) Engulfed aerobic bacteria</p>
+            <p>C) Nuclear division</p>
+            <p>D) ER extensions</p>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>50. Evidence for the endosymbiotic origin of chloroplasts includes their:</p>
+        <div class="options">
+            <p>A) Single membrane</p>
+            <p>B) Own DNA and ribosomes</p>
+            <p>C) Lack of pigments</p>
+            <p>D) Cytoskeletal structure</p>
+        </div>
+    </div>
+
 </body>
 </html>
